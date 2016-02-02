@@ -8,7 +8,8 @@ The tool should work for any number of instances, and should display any instanc
 
 Design the tool so it could be used later to find tags with other names and print other instance details in the report."
 
-A few notes:
+Notes:
+
 1) The creds used will be emailed but have been limited to *only* have access to list against the EC2 api.
 
 2) Instances are *not* currently running, as I didn't want to pay for keeping the instances running
