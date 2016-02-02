@@ -17,6 +17,7 @@ A few notes:
 
 4) Output is by default csv, I thought that would be the easiest to translate into any usable format later:
 
+```
 % ./get_instances.py AWS_KEY AWS_SECRET us-east-1 --tag Owner
 id,instance_type,launch_time,Owner
 i-0e743cf7,t2.micro,2016-02-02T22:17:07.000Z,Akira
@@ -25,6 +26,7 @@ i-456821bc,t2.micro,2016-02-01T21:03:08.000Z,Homer
 i-596821a0,t2.micro,2016-02-01T21:03:08.000Z,Ziff
 i-586821a1,t2.micro,2016-02-01T21:03:08.000Z,undefined
 i-b2561f4b,t2.micro,2016-02-01T20:59:19.000Z,undefined
+```
 
 5) Script has -v and -h options, which spit out indepth logging and help entries respectively
 
