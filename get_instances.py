@@ -38,7 +38,7 @@ def get_ec2_instances(access_key, secret_key, region):
             logger.info("Getting info for instance: %s" % instance.id)
             instances_unsorted.append(instance)
             if tag not in instances_unsorted[-1] .tags:
-                instances_unsorted[-1] .tags[tag] = "UNDEFINED"
+                instances_unsorted[-1] .tags[tag] = "undefined"
     return instances_unsorted
 
 
